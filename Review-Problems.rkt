@@ -1,5 +1,7 @@
 #lang racket
 
+; shoutout previous CSSE304 SRT Garrett Doolittle who wrote these fire exam review problems
+
 (require "chez-init.rkt")
 
 (provide scheme-value? apply-cont halt-cont all-positive?-cps my-even?-cps even-filter-cps valid-even-list?-cps make-cps and-eval grade-tests eval-one-exp)
